@@ -1,0 +1,13 @@
+* {
+  box-sizzing: border-box;
+}
+
+h1, h2 {
+font-family: 'Montserrat', sans-serif;
+line-height: 1.5;
+}
+
+p{
+font-family: 'Roboto', sans-serif;
+line-height: 1.5;
+}
