@@ -1,0 +1,23 @@
+button {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-color: white;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
