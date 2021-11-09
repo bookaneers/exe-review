@@ -1,0 +1,52 @@
+h2 {
+  color: white;
+  font-size: xx-large;
+}
+
+h3 {
+  color: white;
+  font-size: 21px;
+  padding-top: 1rem;
+}
+
+p {
+  color: lightgray;
+}
+
+img {
+  width: 125px;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  background-color:rgb(22, 160, 210);
+  padding: 4rem;
+  font-family: lato, sans-serif, serif;
+}
+
+.row {
+  display:flex;
+  text-align: center;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-one-third {
+  width: 33%;
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.icon {
+  background-color: white;
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
