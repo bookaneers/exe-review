@@ -1,0 +1,380 @@
+.container {
+  max-width: 1350px;
+  margin: auto;
+  padding-top: 30px
+}
+
+.row {
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
+  justify-content: center;
+}
+
+/* navigation bar (header) */
+.nav {
+  max-width: 1150px;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display:flex;
+  align-items: center;
+}
+
+.nav-image {
+  flex: 20 1 auto;
+}
+
+.nav-image img {
+  max-height: 30px;
+}
+
+.nav-1,
+.nav-2,
+.nav-3,
+.nav-4,
+.nav-5 {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.nav a {
+  text-decoration: none;
+  text-align: center;
+  font-family: lato, serif, sans-serif;
+  font-size: larger;
+  color: rgb(166, 166, 166);
+}
+
+.nav button {
+  background-color: transparent;
+  border: none;
+  padding: 0.7rem;
+  display: inline-block;
+}
+
+.nav button:hover {
+  background-color: rgb(3, 71, 94);
+  border-radius: 5%;
+}
+
+/* thematic break */
+hr {
+  position: relative;
+  border-top: 1px solid rgb(216, 216, 216);
+}
+
+/* hero */
+.hero {
+  background: url("images/hero.jpg");
+  height: 600px;
+  width: 1150px;
+  justify-content: center;
+  background-size: cover;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overlay {
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+  height: 600px;
+  width: 1150px;
+  display: flex;
+}
+
+.hero-text {
+  flex-basis: calc(100% / 2);
+  color: whitesmoke;
+  padding-top: 3rem;
+  padding-left: 5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-size: 18px; */
+}
+
+.hero-text h1 {
+  line-height: 3rem;
+  font-weight: inherit;
+  font-size: 40px;
+}
+
+.hero-text p {
+  line-height: 2rem;
+  font-family: lato, sans-serif, serif;
+  font-size: 18px
+}
+
+.hero button {
+  background-color: rgb(1, 61, 81);
+  border-radius: 5%;
+  border: none;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: inline-block;
+  color: whitesmoke;
+  font-size: 23px;
+  margin-top: 1rem;
+}
+
+/* locations */
+.locations {
+  margin-top: 80px;
+  background-color: rgb(249, 248, 248);
+  height: 500px;
+}
+
+.loc-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: gray;
+}
+
+.loc-row-1col {
+  margin-top: 50px;
+  flex-basis: 100%;
+  padding-left: 25rem;
+  padding-right: 25rem;
+  line-height: 2rem;
+  font-size: 20px;
+  font-family: 'Tiempos Headline';
+}
+
+.loc-row-2col {
+  flex-basis: 50%;
+  padding: 2rem;
+  font-family: 'Avenir';
+}
+
+/* learn more */
+.learn-more {
+  height: 75px;
+  width: 1150px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+}
+
+.learn-more-2col {
+  flex-basis: 50%;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+
+.learn-more button {
+  background-color: rgb(1, 61, 81);
+  border-radius: 5%;
+  border: none;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: inline-block;
+  color: whitesmoke;
+  font-size: 23px;
+  margin-top: 1rem;
+  float: right;
+}
+
+/* company info */
+.co-info {
+  margin-top: 80px;
+  background-color: rgb(99, 98, 98);
+  height: 500px;
+  display: flex;
+}
+
+.co-info-4col {
+  flex-basis: calc(100% / 4);
+  text-align: left;
+  color: white;
+  padding-top: 8rem;
+  font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.co-info-4col h3 {
+  font-size: 22px;
+}
+
+.co-info-4col-image {
+  padding-left: 5rem;
+}
+
+.white-logo {
+  max-height: 30px;
+  margin-bottom: 3rem;
+}
+
+/* footer */
+.footer {
+  height: 150px;
+  width: 1350px;
+  margin: auto;
+  background-color: rgb(249, 248, 248);
+    display: flex;
+  color: gray;
+  padding-left: 5rem;
+}
+
+.footer-2col {
+  margin-top: 30px;
+  flex-basis: calc(100% / 7);
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* product */
+.product-header {
+  background: url("images/product/product-header.jpg");
+  height: 600px;
+  width: 1150px;
+  justify-content: center;
+  background-size: cover;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-header-text {
+  flex-basis: calc(100% / 2);
+  color: whitesmoke;
+  padding-top: 10rem;
+  padding-left: 5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+.product-header-text h1 {
+  line-height: 3rem;
+  font-weight: inherit;
+  font-size: 36px;
+}
+
+.product-header-text p {
+  line-height: 2rem;
+  font-family: lato, sans-serif, serif;
+  font-size: 18px;
+}
+
+.advantages {
+  margin-top: 80px;
+  /* margin-bottom: 80px; */
+  font-family: 'Avenir';
+}
+
+.advantages-row-gray {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Tiempos Headline';
+  background-color: rgb(249, 248, 248);
+  height: 700px;
+}
+
+.advantages-row-white {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Tiempos Headline';
+  background-color: white;
+  height: 600px;
+}
+
+.adv-row-2col {
+  flex-basis: 50%;
+  padding: 5rem;
+}
+
+.adv-row-2col h2,
+.adv-row-2col h4,
+.adv-row-2col p {
+  text-align: left;
+}
+
+.adv-row-2col h2 {
+  font-size: 38px;
+  font-weight: lighter;
+}
+
+.adv-row-2col h4 {
+  color:  rgb(3, 71, 94);
+  font-size: 20px;
+
+}
+
+.adv-row-2col p {
+  color: gray;
+  font-size: 20px;
+}
+
+.adv-row-2col img {
+  height: 28rem;
+}
+
+/* implementation */
+.implementation-header {
+  background: url("images/implementation/implementation-header.jpg");
+  height: 600px;
+  width: 1150px;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.implementation-header-text {
+  flex-basis: calc(100% / 2);
+  color: whitesmoke;
+  padding-top: 7rem;
+  padding-left: 5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+.implementation-header-text h1 {
+  line-height: 3rem;
+  font-weight: inherit;
+}
+
+.implementation-header-text p {
+  line-height: 2rem;
+  font-family: lato, sans-serif, serif;
+  font-size: 15px;
+}
+
+.roi {
+  margin-top: 80px;
+}
+
+.roi h2 {
+  font-size: 35px;
+  color: black;
+}
+
+.roi h2 span {
+  color: gray;
+}
+.roi-row-title {
+  text-align: center;
+  font-family: Geneva, Tahoma, sans-serif;
+  padding-top: 3rem;
+}
+.roi-row {
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  color: gray;
+  font-family: Geneva, Tahoma, sans-serif;
+  background-color: white;
+  padding-top: 5rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
