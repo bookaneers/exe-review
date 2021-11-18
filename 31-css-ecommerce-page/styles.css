@@ -1,0 +1,28 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.column {
+  display: flex;
+}
+
+.column-1-5 {
+  text-align: left;
+  padding: 4px;
+}
+
+.column-1-5 img {
+  height: 350px;
+}
+
+.column-1-5 p {
+  font-weight:bold;
+  font-size: 14px;
+}
+
+.column-1-5 span, del {
+  font-weight: normal;
+  color:lightgray
+}
