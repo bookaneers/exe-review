@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+}
+
+.light-bulb {
+  margin: 15rem;
+  box-shadow: 10px 10px 10px 10px black;
+  border-radius: 50%;
+  background-color: rgb(249, 249, 111);
+  width: 200px;
+  height: 200px;
+}
+
+.container-off {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.light-bulb-off {
+  margin: 15rem;
+  box-shadow: 10px 10px 10px 10px black;
+  border-radius: 50%;
+  background-color: lightgray;
+  width: 200px;
+  height: 200px;
+}
