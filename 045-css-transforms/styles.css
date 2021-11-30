@@ -17,12 +17,6 @@ body {
   text-align: center;
 }
 
-/* img.pokeball {
-  max-width: 100px;
-  margin: 0 auto 1rem;
-  display: block;
-} */
-
 div.column > img.pokeball {
   max-width: 100px;
   margin: 0 auto 1rem;
@@ -56,18 +50,3 @@ button:focus {
 button:active {
   transform: translateY(0.25rem);
 }
-
-
-/* div.column > img.pokeball {
-  max-width: 100px;
-  margin: 0 auto 1rem;
-  display: block;
-}
-
-div.column:first-child > img.pokeball:first-child {
-  transform: rotate(150deg);
-}
-
-div.column:last-child > img.pokeball:first-child {
-  transform: rotate(30deg);
-} */
