@@ -1,5 +1,6 @@
-/* exported pokedex */
+// DOM creation
 
+/* exported pokedex */
 var pokedex = [
   {
     number: '001',
@@ -57,9 +58,10 @@ var pokedex = [
   }
 ];
 
+// function to create a new group of elements
 function renderPokemon(pokemon) {
 
-  // create new elements
+  // create new elements in a cascade format
   var $columnThird = document.createElement('div');
   var $pokemonCard = document.createElement('div');
   var $img = document.createElement('img');
@@ -86,13 +88,20 @@ function renderPokemon(pokemon) {
   $pokemonCardText.appendChild($name);
   $pokemonCardText.appendChild($number);
   $pokemonCardText.appendChild($description);
-  // return elemenrts
+
+  // return elements
   return $columnThird;
 }
 
+// query class element
 var $row = document.querySelector('.row');
 
+// iterate over array
 for (var i = 0; i < pokedex.length; i++) {
+
+  // call function renderPokemon
   var $pokemon = renderPokemon(pokedex[i]);
+
+  // create new class element ROW with result from renderPokemon
   $row.appendChild($pokemon);
 }
